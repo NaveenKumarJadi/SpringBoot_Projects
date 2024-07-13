@@ -1,14 +1,12 @@
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 Spring Boot Application with Payment Gateway:
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Prerequisite:
-
-1. Spring Boot
-2. Data JPA
-3. Thymeleaf
-4. Java Script
-5. Razorpay Account
+	1. Spring Boot
+	2. Data JPA
+	3. Thymeleaf
+	4. Java Script
+	5. Razorpay Account
 		key ID: rzp_test_RAZORPAYKEYID
 		key Secret: RAZOR1pay2KEY3secret
 
@@ -22,15 +20,14 @@ Step 3: Create Spring boot application
 			5)devtools
 			6)razorpay-java
 
-++++++++++++++++++++++++++++++++++++++++++++++
+
 SQL queries:
-++++++++++++++++++++++++++++++++++++++++++++++
+
 create database ecomm;
 use ecomm;
 show tables;
 select * from student_orders;
 truncate table student_orders;
 
-++++++++++++++++++++++++++++++++++++++++++++++
-
+URL: 
 GET: http://localhost:8080/
