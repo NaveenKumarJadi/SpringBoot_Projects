@@ -4,8 +4,11 @@ Spring Boot Moies API
 Concepts:
 ----------------
 File upload and Download
+
 CRUD Operations
+
 JWT Tokens
+
 Spring Boot Mail Sender
 
 USE POSTMAN:
@@ -151,3 +154,22 @@ request:
 
 response: Password has been changed!
 
+**MySQL:**
+
+create database movies;
+
+use movies;
+
+show tables;
+
+select * from movie_cast;
+
+select * from movies_dtls;
+
+select * from forgot_password;
+
+SELECT * FROM movies.forgot_password;
+
+select * from refresh_token;
+
+select * from users;
